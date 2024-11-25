@@ -1,0 +1,1294 @@
+
+
+body{
+    background-color: #F5F5F5;
+}
+
+
+/*------------------- HEADER ------------- */
+
+header {
+    position: relative;
+    background-color: #1E88E5; /* Azul primario para dar contraste con el texto */
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.5); /* Mantengo sombra para elegancia */
+    padding: 1.5rem;
+    border-radius: 0 0 5px 5px;
+    color: #F5F5F5; /* Texto en blanco/gris claro para buena legibilidad */
+}
+
+
+#logo {
+    width: 170px;
+    height: 50px;
+    background: url("../multimedia/logo_promo_pc_Mesa\ de\ trabajo\ 1.png");
+    font-size: 0;
+    position: absolute;
+    margin: 0;
+    margin-top: 0.6rem;
+    z-index: 1;
+}
+
+section:first-of-type {
+    margin-top: 60px;
+}
+
+
+/* ------------------   NAV   --------------------- */
+
+
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../multimedia/boton-nav.png);
+}
+
+.bg-dark {
+    --bs-bg-opacity: 0;
+    
+  }
+
+.navbar-nav{
+    --bs-nav-link-color: #1E88E5; /* Azul primario (color base para enlaces) */
+    --bs-nav-link-hover-color: #0D47A1; /* Azul marino (para hover, más oscuro para destacar interacción) */
+    --bs-nav-link-active-color: #F5F5F5; /* Gris claro/blanco (ideal para enlaces activos sobre fondos oscuros) */
+}
+
+.nav-link {
+    display: inline-block;
+  }
+
+
+/*--borde*/
+.navbar-toggler {
+    border: transparent;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+/*--borde*/
+
+  
+#barra ul li a {
+    font-family: "Questrial", sans-serif; /* Mantengo la fuente moderna */
+    margin-left: 2rem;  
+    margin-bottom: -1rem;
+    color: #F5F5F5; /* Blanco suave para contraste con el fondo */
+    font-size: 1.6rem;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem; /* Agrego relleno para que los enlaces sean más clicables */
+    text-decoration: none; /* Limpieza: sin subrayado */
+    background-color: #1E88E5; /* Fondo azul primario para destacar */
+    transition: all 0.3s ease-in-out; /* Animación suave para interactividad */
+}
+
+/* Efecto al pasar el cursor */
+#barra ul li a:hover {
+    background-color: #1565C0; /* Azul más oscuro para resaltar */
+    color: #E3F2FD; /* Azul claro que combina con el diseño */
+    transform: scale(1.05); /* Efecto sutil de crecimiento */
+}
+
+
+
+/* Fuentes */
+
+
+.questrial-regular {
+    font-family: "questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+h2, h3 {
+    font-family: "Questrial", sans-serif; /* Fuente moderna y limpia */
+    font-weight: bold; /* Mantengo el énfasis en la jerarquía */
+    color: #0D47A1; /* Azul primario profesional para encabezados */
+    margin-bottom: 1rem; /* Espaciado para separar el contenido */
+    line-height: 1.4; /* Mejor legibilidad */
+    text-transform: uppercase; /* Da un toque profesional */
+    letter-spacing: 0.05rem; /* Separación sutil entre letras */
+}
+
+h2{
+    font-size: 32px;
+    font-family: "questrial", sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5rem; /* Tamaño equivalente a 24px para mantener consistencia */
+    font-family: "Questrial", sans-serif; /* Fuente moderna y elegante */
+    color: #1976D2; /* Azul profesional, combinable con el resto */
+    font-weight: 600; /* Peso medio para diferenciar de h2/h3 */
+    margin-bottom: 0.8rem; /* Espaciado inferior sutil */
+    line-height: 1.3; /* Mejora la legibilidad */
+    letter-spacing: 0.03rem; /* Separación ligera */
+    text-transform: capitalize; /* Mantiene un estilo sobrio */
+}
+
+
+
+
+/* ------------------   Imagen inicial banner  --------------------- */
+
+.img-banner picture img {
+    border-radius: 1.5rem; /* Bordes suaves pero menos extremos */
+    box-shadow: -8px 10px 12px rgba(0, 0, 0, 0.4); /* Sombra sutil, profesional */
+    border: 2px solid #1976D2; /* Borde fino en azul profesional */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Animación para interacción */
+}
+
+/* ------------------   Texto Pantallas y Soluciones --------------------- */
+#texto-biblio-info-1{
+    padding: 1rem;
+}
+#texto-biblio-info-1 p {
+    font-size: 18px; /* Tamaño de fuente un poco más pequeño para mayor legibilidad */
+    color: #333333; /* Color gris oscuro para mayor contraste y suavidad */
+    line-height: 1.6; /* Mejora la legibilidad con más espacio entre líneas */
+    font-family: "Questrial", sans-serif; /* Mantén la tipografía coherente con el resto */
+}
+
+/* ------------------   Borde Pantallas y Soluciones --------------------- */
+.bordes-info-telefono picture img {
+    box-shadow: 10px 12px 20px 6px rgba(15, 82, 186, 0.5); /* Sombra con un color más suave y azul para un toque tecnológico */
+    border-radius: 0.8rem; /* Borde redondeado más suave */
+    transition: all 0.3s ease; /* Añadido un efecto suave al pasar el cursor */
+}
+
+
+/* ------------------   Pastillas --------------------- */
+#pastillas {
+    box-shadow: 10px 12px 15px 6px rgba(15, 82, 186, 0.2); /* Sombra suave en azul con opacidad baja */
+    border-radius: 0.8rem; /* Bordes redondeados */
+    background-color: #ffffff; /* Fondo blanco para mantener el estilo limpio */
+    color: #0d47a1; /* Texto en azul oscuro para buena legibilidad */
+    padding: 1rem; /* Espaciado interno */
+    transition: all 0.3s ease; /* Transición suave para interacciones */
+    border: 1px solid #0d47a1; /* Bordes finos en azul para darle estructura */
+}
+
+#pastillas:hover {
+    background-color: #e3f2fd; /* Fondo azul claro al pasar el mouse */
+    box-shadow: 10px 12px 20px 6px rgba(15, 82, 186, 0.4); /* Sombra más intensa con azul más visible */
+    border-color: #1976d2; /* Cambio en el borde al pasar el mouse */
+}
+
+
+
+
+/* ------------------   Texto Pantallas y Soluciones --------------------- */
+#texto-biblio-info-2{
+    padding: 1rem;
+}
+
+
+#texto-biblio-info-2 p {
+    font-size: 20px;
+    color: #0d47a1; /* Azul oscuro que armoniza con la paleta moderna */
+}
+
+
+/* ------------------   Borde imagen solucion --------------------- */
+.bordes-info-telefono-2 picture img {
+    box-shadow: -10px 12px 0px 6px rgba(13, 71, 161, 0.5); /* Sombra suave en azul */
+    border-radius: 0.5rem; /* Bordes redondeados para un toque moderno */
+}
+
+
+/* ------------------   Estilos cards bootsrap--------------------- */
+#color-java {
+    color: #0a3f9a; /* Blanco para un contraste limpio y moderno */
+}
+
+
+
+.titulo-cards {
+    font-size: 2rem;
+}
+
+
+
+#subtitulo-discos-fav {
+    color: #ffffff; /* Blanco para un contraste claro y limpio */
+    background-color: #0073e6; /* Azul suave para un toque profesional y tecnológico */
+}
+
+
+.list-group-item {
+    font-family: "Questrial", sans-serif;
+    color: #ffffff; /* Blanco para el texto, asegurando legibilidad */
+    background-color: #0066cc; /* Azul más suave y profesional para el fondo */
+    border-radius: 0.5rem; /* Bordes redondeados para un diseño más pulido */
+}
+
+
+.card {
+    background-color: #f4f9fc; /* Un azul claro, limpio y moderno para el fondo */
+    --bs-card-border-color: #b3d1ff; /* Azul suave para el borde, que resalta sin ser invasivo */
+    border-radius: 0.8rem; /* Bordes suavizados para un look más moderno */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para añadir profundidad */
+}
+
+
+.card-group{
+    margin-top: 2rem;
+}
+
+
+/* ------------------   Estilos  - js  --------------------- */
+
+
+/*--Esto centra el contenedor y le agrega un maximo de 1300px*/
+#favoritos{
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*--Esta linea cambia el estilo del boton de accede */
+.btn-light {
+    color: #ffffff; /* Mantener el texto blanco */
+    font-weight: 500 !important; /* Peso de fuente ligeramente mayor para legibilidad */
+    font-family: "Questrial", sans-serif; /* Mantener la fuente moderna */
+    background-color: #007bff; /* Azul brillante para un toque moderno y tecnológico */
+    border: 2px solid #0056b3; /* Borde azul oscuro para resaltar el contorno */
+    border-radius: 0.5rem; /* Bordes redondeados para una apariencia más suave */
+    padding: 0.75rem 1.5rem; /* Relleno para darle un buen tamaño y comodidad */
+    transition: all 0.3s ease; /* Transición suave para interacciones */
+}
+
+.btn-light:hover {
+    background-color: #0056b3; /* Cambio de fondo a un azul más oscuro al pasar el cursor */
+    border-color: #004085; /* Borde más oscuro para mejorar la interacción */
+}
+
+
+/*--Esta linea cambia el redondeo del boton que abre*/
+.rounded-5 {
+    border-radius: 0.5rem !important;
+  }
+
+
+/*--Esta linea cambia el color, radio y color de fondo del contenedor*/
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #007bff !important; /* Azul brillante, más acorde con el estilo tecnológico */
+    border-radius: 0.8rem; /* Bordes redondeados para suavizar la apariencia */
+    box-shadow: 15px 15px 20px 0.5rem rgba(0, 123, 255, 0.5); /* Sombra suave en tonos azules */
+}
+
+
+
+  /*--Estas lineas son para personalizar el boton de eliminar todo*/
+.btn-danger {
+    font-weight: 700; /* Se mantiene el peso de la fuente en negrita para resaltar */
+    font-family: "questrial", sans-serif;
+    background-color: #007bff; /* Azul brillante para el fondo, alineado con el estilo tecnológico */
+    color: #ffffff; /* Texto blanco para asegurar buen contraste y legibilidad */
+    border-radius: 0.5rem; /* Bordes ligeramente redondeados para un look más suave */
+    transition: background-color 0.3s ease; /* Transición suave para interacciones */
+    
+    --bs-btn-hover-bg: #0056b3; /* Un azul más oscuro para el hover, alineado con el estilo */
+    --bs-btn-border-color: transparent; /* Sin borde, para un look más limpio */
+}
+
+.btn-danger a {
+    color: #ffffff; /* Blanco para el texto, asegurando contraste con el fondo del botón */
+    text-decoration: none; /* Sin subrayado para mantener el estilo limpio y profesional */
+    font-weight: 600; /* Peso de fuente semi-negrita para resaltar el enlace */
+    transition: color 0.3s ease; /* Transición suave para cambios de color */
+}
+
+
+  .rounded-circle {
+    border-radius: 0.4rem !important;
+  }
+
+
+  .btn-success {
+    font-weight: 700; /* Negrita para destacar el texto */
+    font-family: "questrial", sans-serif; /* Fuente limpia y moderna */
+    background-color: #4e94f3; /* Azul claro para un fondo fresco y moderno */
+    color: #ffffff; /* Blanco para el texto, asegurando un buen contraste */
+    border-radius: 0.5rem; /* Bordes redondeados para suavizar el diseño */
+    padding: 10px 20px; /* Añadir relleno para mayor área de clic */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    border: none; /* Sin borde para mantener la limpieza */
+}
+
+
+  /*--Estas lineas son para personalizar el boton filtros*/
+  
+.form-select {
+    font-family: "questrial", sans-serif; /* Mantiene la tipografía limpia y moderna */
+    background-color: #00aaff; /* Azul brillante para destacar el campo del formulario */
+    color: #ffffff; /* Texto en blanco para un buen contraste */
+    border: 1px solid #0077cc; /* Borde sutil en un tono más oscuro de azul */
+    border-radius: 0.5rem; /* Bordes redondeados para suavizar el diseño */
+    padding: 0.5rem 1rem; /* Espaciado interno cómodo */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transición suave */
+}
+
+.form-control {
+    font-family: "questrial", sans-serif; /* Tipografía limpia y moderna */
+    background-color: #4e94f3; /* Azul claro, que es fresco y moderno */
+    color: #ffffff; /* Texto en blanco para asegurarse de que se lea bien */
+    border: 1px solid #357fd8; /* Borde azul oscuro para mantener la coherencia */
+    border-radius: 0.5rem; /* Bordes redondeados para un look más suave */
+    padding: 0.5rem 1rem; /* Espaciado interno adecuado */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transición suave */
+}
+
+
+/*
+  Esta linea permite cambiarle el color al pop up una vez que colocamos nuestros datos
+
+  .form-control:not(:placeholder-shown) ~ label::after{
+    background-color: #f0359d !important;
+
+  }
+*/
+
+
+
+/*--Estas lineas personalizan la card que se abre cuando agregamos un pedido*/
+
+#color-ingresa {
+    color: #ffffff; /* Blanco puro para que el texto destaque sobre fondos oscuros o coloridos */
+    font-weight: bold; /* Hace el texto un poco más destacado para resaltar la importancia */
+}
+
+
+.btn-primary {
+    font-family: "questrial", sans-serif;
+    background-color: #1a73e8; /* Un azul moderno y vibrante para el fondo */
+    border-color: transparent; /* Sin bordes para un diseño más limpio */
+
+    --bs-btn-hover-bg: #0d5bbd; /* Un azul más oscuro para el estado de hover */
+    --bs-btn-hover-border-color: transparent; /* Mantener sin borde en hover */
+    color: white; /* Texto blanco para un buen contraste */
+    border-radius: 0.5rem; /* Bordes redondeados para un diseño más suave */
+    font-weight: bold; /* Textos más destacados */
+    padding: 0.8rem 1.5rem; /* Padding generoso para más área clickeable */
+}
+
+
+.btn-info {
+    color: white; /* Texto blanco para alto contraste */
+    font-family: "questrial", sans-serif;
+
+    --bs-btn-bg: #007bff; /* Azul brillante para el fondo del botón */
+    --bs-btn-hover-bg: #0056b3; /* Azul más oscuro para el hover */
+    --bs-btn-hover-color: #fff; /* Mantener el texto blanco en hover */
+    --bs-btn-border-color: transparent; /* Sin borde para un diseño limpio */
+    --bs-btn-hover-border-color: transparent; /* Mantener sin borde al hacer hover */
+
+    border-radius: 0.5rem; /* Bordes redondeados para un aspecto suave */
+    font-weight: bold; /* Hacer el texto más destacado */
+    padding: 0.8rem 1.5rem; /* Asegurando un área de clic amplia y cómoda */
+    transition: all 0.3s ease; /* Transición suave para una interacción más dinámica */
+}
+
+
+
+.modal{
+    --bs-modal-border-color: transparent;
+}
+
+.modal-content {
+    background-color: #155b98; /* Azul muy claro (Alineado con el estilo tecnológico y limpio) */
+    border-radius: 0.8rem; /* Bordes redondeados para suavizar el diseño */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+    padding: 2rem; /* Espaciado interno para contenido cómodo */
+}
+
+
+.fs-5 {
+    color: #1b2c8e; /* Azul muy claro o blanco azulado, suave y armonioso con el estilo tecnológico */
+}
+
+
+/* ------------------   Foto google trends. Este contenido solo se ve desde los 586px en adelante. No se ve para celular, solo tablet y pc.  --------------------- */
+.foto-trends img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+/* ------------------   Problema y solucion   --------------------- */
+
+
+
+/*--Titulo Lonas Vinilos*/
+#h2-objetivo-1 {
+    max-width: fit-content;
+    background-color: #e0f7fa; /* Azul suave o azul celeste claro para el fondo */
+    font-size: 50px;
+    color: #0d47a1; /* Un tono de azul más oscuro para el texto, profesional y legible */
+    padding: 10px; /* Añadí algo de espacio interno para mejorar la presentación */
+    border-radius: 8px; /* Bordes ligeramente redondeados para un toque moderno */
+}
+
+
+/*--Titulo  Banner Gota de Agua*/
+#h2-objetivo-2 {
+    max-width: fit-content;
+    background-color: #e0f7fa; /* Azul claro o azul celeste suave */
+    font-size: 50px;
+    color: #0d47a1; /* Azul oscuro para el texto, que resalta bien sobre el fondo claro */
+    padding: 10px; /* Añadí un poco de espacio interno para una mejor presentación */
+    border-radius: 8px; /* Bordes ligeramente redondeados para un toque moderno */
+}
+
+
+
+
+
+
+
+
+
+/*--Span selector*/
+#disc-fav-span{
+    position: relative;
+    bottom: 14rem;
+}
+
+
+
+
+
+
+#nosotros {
+    padding: 10% 5%;
+    background-color: #e3f2fd; /* Azul muy claro, dando una sensación fresca y profesional */
+    border-radius: 15px; /* Bordes ligeramente redondeados para suavizar el diseño */
+    margin: 0 0 5% 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil para profundidad */
+}
+
+
+#nosotros:last-child figure{
+    margin: 1rem 0 1rem 0;
+}
+#nosotros:first-child{
+    padding-left:2rem;
+} 
+
+
+
+
+
+/* ------------------   Objetivo   --------------------- */
+
+
+#info_posicion{
+    display: flex; 
+    align-items: center;
+}
+
+
+
+
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    background: #80bfff; /* Azul suave, más acorde con el estilo moderno y tecnológico */
+}
+
+.carousel-indicators .active {
+    background: #007bff; /* Un azul más intenso, para resaltar el indicador activo */
+}
+
+
+/* ------------------   impre  --------------------- */
+#impresiones-a3-span{
+    position: relative;
+    bottom: 8.5rem;
+}
+
+
+/* ------------------   Color letras   --------------------- */
+.testimonios-color p {
+    color: #d1e0e8; /* Un blanco suave/azul claro, que mantiene el estilo limpio y moderno */
+}
+
+
+
+/* ------------------  Espacio entre imagen y boton enviar  --------------------- */
+#form{
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+    /* ------------------   ACORDEON  --------------------- */
+
+.accordion {
+    --bs-accordion-border-color: transparent;
+    --bs-accordion-btn-focus-border-color: transparent;
+    --bs-accordion-btn-focus-box-shadow: transparent;
+    --bs-accordion-active-bg: #0a4d9d; /* Azul oscuro para el fondo activo */
+    --bs-accordion-active-color: #ffffff; /* Texto blanco cuando está activo */
+    --bs-accordion-bg: #1f75fe; /* Azul brillante como fondo principal */
+    --bs-accordion-body-padding-x: 2rem;
+    --bs-accordion-btn-padding-x: 2rem;
+    --bs-accordion-btn-padding-y: 1.5rem;
+    --bs-accordion-border-width: 1px; /* Añadir una pequeña línea de borde si es necesario */
+    
+    /* Definir un color de borde suave, si prefieres algún borde sutil */
+    border: 1px solid #d3e2f5; /* Borde de color azul claro para contraste */
+}
+    
+
+.accordion-item{
+    margin: 1rem;
+    border: 0;
+}
+
+.accordion-button {
+    font-size: 24px;
+    background-color: #1e3a8a; /* Azul oscuro para el fondo del botón */
+    color: #ffffff; /* Texto blanco para mayor contraste */
+    border-radius: 8px; /* Bordes redondeados para un look más moderno */
+    transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+
+.accordion-body p {
+    font-size: 24px;
+    font-family: "questrial", sans-serif;
+    color: #1e1e1e; /* Color de texto más suave, casi gris para mayor legibilidad */
+    border-top: 6px solid #4e7cfc; /* Azul más claro para la línea superior */
+    padding-top: 1.5rem;
+    background-color: #f1f5f9; /* Fondo suave y claro para el cuerpo */
+    border-radius: 8px; /* Bordes redondeados para el cuerpo */
+}
+
+.accordion-body{
+    padding-top: 0;
+}
+
+
+    /* ------------------------------------- Preguntas ------------------------------------- */
+
+    #preguntas-span{
+        position: relative;
+        bottom: 8.5rem;
+        
+    }
+
+    /* ------------------------------------- Formulario ------------------------------------- */
+
+
+    /* ------------------   Titulo  --------------------- */
+    .cont_form h2 {
+        margin-bottom: 1rem;
+        color: #1e3a8a; /* Azul oscuro para armonizar con el estilo general */
+        font-family: "Questrial", sans-serif; /* Asegura que se use la fuente deseada */
+        font-size: 2rem; /* Tamaño de fuente mayor para un impacto visual */
+    }
+    
+
+    /* ------------------   Orden cajas del formulario  --------------------- */
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    /* ------------------   Colores caja formulario  --------------------- */
+    input, textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 0.5rem; /* Bordes ligeramente más redondeados */
+        border: 1px solid #a1c4f7; /* Borde sutil en azul claro */
+        background-color: #f0f7ff; /* Fondo claro y suave (azul pálido) */
+        color: #1e3a8a; /* Color de texto azul oscuro para contraste */
+        font-size: 14px;
+        font-family: "Questrial", sans-serif; /* Fuente consistente */
+        transition: all 0.3s ease; /* Transición suave en interacción */
+    }
+    
+    /* ------------------   Boton enviar  --------------------- */
+    #buttom-form {
+        font-family: "Questrial", sans-serif;
+        font-size: 20px;
+        padding: 0.5rem 2rem;
+        max-width: 100%;
+        background-color: #1e3a8a; /* Azul oscuro para el fondo */
+        color: #ffffff; /* Color blanco para el texto */
+        border-radius: 0.5rem; /* Bordes ligeramente más redondeados */
+        border: none;
+        
+        text-transform: uppercase;
+    
+        transition: all 0.3s ease; /* Transición suave en hover/focus */
+    }
+
+
+    /* ------------------   Color hover boton enviar --------------------- */
+    #buttom-form:hover {
+        background-color: #3b82f6; /* Azul brillante en hover, para mantener el esquema de colores azules */
+        color: #ffffff; /* Mantener el texto blanco para buen contraste */
+        box-shadow: 0 4px 8px rgba(59, 130, 246, 0.3); /* Sombra sutil para darle más énfasis al hover */
+    }
+    
+    /* ------------------  Orden cajas formulario  --------------------- */
+    #input_grupo {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #input_grupo input {
+        width: 48%; 
+    }
+
+    #column-form{
+        width: 100%;
+    }
+
+
+    .border-img-contacto picture img {
+        box-shadow: 10px 12px 0px 6px #3b82f6; /* Azul suave para el borde de la imagen */
+        border-radius: 0.5rem;
+    }
+    
+    .border-img-contacto picture img:hover {
+        box-shadow: 10px -12px 0px 6px #1e40af; /* Azul más profundo para el efecto hover */
+        border-radius: 0.5rem;
+    }
+    
+
+
+
+/* ---------------------- FOOTER ------------------ */
+
+footer{
+    background-color: #0D47A1;
+    color: #191919;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    }
+
+    footer ul li {
+        margin: 0 0.2rem;
+      }
+
+
+    #logo_footer{
+    width: 100px;
+    height: 29px;
+    font-size: 0;
+    margin-bottom: 0;
+    background-image: url(../multimedia/logo_promo_cel-02-02.png);
+    background-repeat: no-repeat;
+    
+    }
+
+    
+    
+    #x{
+        background: url("../multimedia/iconos_redes/x-logo-tb.png") center center no-repeat; 
+    }
+    #face{
+        background: url("../multimedia/iconos_redes/f-logo-tb.png") center center no-repeat;
+    }
+    #ig{
+        background: url("../multimedia/iconos_redes/i-logo-tb.png") center center no-repeat;
+    }
+
+    #x:hover {
+        background: url("../multimedia/iconos_redes/x-logo-hover-tb.png") center center no-repeat;
+    }
+    #face:hover {
+        background: url("../multimedia/iconos_redes/f-logo-hover-tb.png") center center no-repeat;
+    }
+    #ig:hover {
+        background: url("../multimedia/iconos_redes/i-logo-hover-tb.png") center center no-repeat;
+    }
+
+    .fotos-alumnos img{
+        margin: 0.5rem;
+        border-radius: 1rem;
+    }
+
+    #social_posicion p{
+        display: inline-block;
+    }
+
+
+    #social_posicion ul{
+        margin: 0;
+        padding: 0;
+    }
+    
+
+    #social_posicion ul li{
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+    }
+
+    #social_posicion ul li a {
+        display: flex;
+        justify-content: center;   
+        text-indent: -5000px;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    #social_posicion2 p{
+        display: inline-block;
+        
+    }
+
+    #social_posicion2 ul{
+        margin-top: 1rem;
+        padding: 0;
+    }
+    
+    #social_posicion2 ul li{
+        display: inline-block;
+        width: 126px;
+        height: 38px;
+    }
+
+    #social_posicion2 ul li a {
+        display: flex;
+        justify-content: center;   
+        text-indent: -5000px;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    #alumnos {
+        color: #d1d7e0; /* Color más suave y moderno (grisáceo claro) */
+        padding: 0;
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+        font-family: "questrial", sans-serif;
+        font-size: 14px;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+   
+#banner-inicio-sm img{
+    margin-top: 5rem;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* --------- Media query solo con footer a partir de 575px y contenedor contacto  -------------- */
+@media screen and (min-width: 575px){
+
+    /* ------------------   Contenedor contacto --------------------- */
+    .cont_form {
+        background-color: #E3F2FD; /* Azul claro suave para un fondo limpio y profesional */
+        border-radius: 10px;
+        width: 100%;
+        margin: 2rem 0;
+        padding: 2rem 2rem;
+    }
+    
+
+
+
+/* --------- FOOTER -------------- */
+
+
+#logo_footer{
+    width: 170px;
+    height: 50px;
+    
+    background-image: url(../multimedia/logo-tb.png);
+    margin-bottom: 1rem;
+    }
+
+    
+    #x{
+        background: url("../multimedia/iconos_redes/x-logo.png") center center no-repeat;
+
+    }
+    #face{
+        background: url("../multimedia/iconos_redes/f-logo.png") center center no-repeat;
+    }
+    #ig{
+        background: url("../multimedia/iconos_redes/i-logo.png") center center no-repeat;
+    }
+
+    #x:hover {
+        background: url("../multimedia/iconos_redes/x-logo-hover.png") center center no-repeat;
+        
+    }
+    #face:hover {
+        background: url("../multimedia/iconos_redes/f-logo-hover.png") center center no-repeat;
+    }
+    #ig:hover {
+        background: url("../multimedia/iconos_redes/i-logo-hover.png") center center no-repeat;
+    }
+
+    #playstore_2{
+        background: url("../multimedia/alumno_1.png") center center no-repeat;
+    }
+
+    #apple_2{
+        width: 100%;
+        height: 100%;
+        background: url("../multimedia/alumna_2.png") center center no-repeat;
+        
+    }
+
+    footer ul li{
+        margin: 0 0.4rem;
+    }
+
+
+    #social_posicion p{
+        margin-top: 1.5rem;
+    }
+
+
+
+
+    #social_posicion ul li{
+        
+        width: 42px;
+        height: 42px;
+    }
+
+    #social_posicion ul li a {
+        margin-top: 1.5rem;
+    }
+
+   
+
+    #social_posicion2 ul{
+        margin-top: 2rem;
+        padding: 0;
+    }
+    
+
+    #social_posicion2 ul li{
+        width: 219px;
+        height: 66px;
+    }
+
+
+    #alumnos{
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        text-align: left;
+    }
+   
+
+#banner-inicio-sm img{
+    max-width: 100%;
+}
+
+
+
+
+}
+
+/* --------- Media query solo telefono  -------------- */
+@media screen and (max-width:585px) {
+    
+    /* ------------------   Utilizado para quitar cosas --------------------- */
+    .none{
+        display: none;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .txt-banner {
+        font-size: 30px;
+        color: #ffffff; /* Blanco para texto, más limpio y profesional */
+        background-color: #1976D2; /* Azul brillante para el fondo, que se ajusta a la paleta moderna */
+        width: fit-content;
+        padding: 0.5rem 1rem; /* Añadí algo de espacio interno para un mejor diseño */
+        border-radius: 5px; /* Bordes redondeados para suavizar la estética */
+    }
+       
+    #texto-biblio-info{
+        padding: 1rem;
+    }
+    
+    
+    #texto-biblio-info p {
+        font-size: 20px;
+        color: #2c3e50; /* Un gris oscuro para un contraste sutil y elegante */
+        background-color: #f0f8ff; /* Un fondo azul muy claro para mantener el estilo moderno */
+    }
+    
+        /* ------------------   Contenedor contacto --------------------- */
+        .cont_form {
+            background-color: #b0e0e6; /* Un azul claro y suave */
+            border-radius: 10px;
+            width: 100%;
+            margin: 4rem 0;
+            padding: 2rem 2rem;
+        }    
+}
+
+/* --------- Media query solo tablet  -------------- */
+@media screen and (max-width:770px) {
+
+
+    .none2{
+        display: none;
+    }
+
+
+    .txt-banner {
+        color: #ffffff; /* Cambié el texto a blanco para mejor contraste */
+        background-color: #5f9ea0; /* Un azul suave, también conocido como "cadetblue" */
+        width: fit-content;
+        padding: 10px 20px; /* Agregué un poco de padding para darle más espacio al texto */
+        border-radius: 8px; /* Bordes redondeados para un estilo más suave */
+    }
+    
+
+
+
+    .txt-banner{
+        margin-top: 3rem;
+        
+    }
+
+    
+
+    #fondo-info-biblio-1 {
+        background-color: #a1c4e8; /* Un azul suave */
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        border-radius: 5px;
+        height: max-content;
+    }
+    
+    #fondo-info-biblio-2 {
+        background-color: #cce7f3; /* Un azul aún más suave, casi blanco */
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        border-radius: 5px;
+        height: max-content;
+    }
+    
+    
+    
+    #contenedor-biblio-1 {
+        max-width: max-content;
+    }
+    #contenedor-biblio-2 {
+        max-width: max-content;
+    }
+
+
+
+    #titulo-info {
+        font-size: 40px;
+        background-color: #4a90e2; /* Azul suave */
+        width: fit-content;
+        margin: 4rem auto;
+        text-align: center;
+        color: white; /* Texto blanco para contraste */
+    }
+    
+    #titulo-2 {
+        font-size: 40px;
+        background-color: #6fa3f7; /* Azul más claro */
+        width: 482px;
+        margin: 2rem auto;
+        max-width: fit-content;
+        color: white; /* Texto blanco para contraste */
+    }
+    
+    #testimonio-1-div {
+        padding: 5%;
+        background-color: #4a90e2; /* Azul suave */
+        margin: 5% 0 2rem 0;
+        box-shadow: -12px -14px 0px 6px #aad4f5; /* Azul claro */
+        border-radius: 15px; 
+        overflow: hidden;
+    }
+    
+    #testimonio-2-div {
+        padding: 5%;
+        background-color: #66b9f1; /* Azul intermedio */
+        margin: 0 0 2rem 0;
+        box-shadow: 12px 14px 0px 6px #aad4f5; /* Azul claro */
+        border-radius: 15px; 
+        overflow: hidden;
+    }
+    
+    #testimonio-3-div {
+        padding: 5%;
+        background-color: #83c0f4; /* Azul claro */
+        margin: 1rem 0 5rem 0;
+        box-shadow: -12px 14px 0px 6px #aad4f5; /* Azul claro */
+        border-radius: 15px; 
+        overflow: hidden;
+    }
+    
+    .tocadiscos-p {
+        color: #4d8df4; /* Azul brillante */
+        background-color: #ffffff; /* Blanco de fondo */
+    }
+    
+    .color-texto-app {
+        color: #ffffff; /* Blanco para el texto */
+    }
+    
+    #titulo-preg {
+        background-color: #1e88e5; /* Azul más oscuro */
+        width: fit-content;
+        margin: 2rem auto;
+        color: white; /* Texto blanco */
+    }
+    
+}
+
+
+/*------------------- Media query SOLO para acomodar el logo en la nav y aumentari espacio de los botones de la nav ------------- */
+@media screen and (max-width: 991px){
+    #logo {
+        left: calc(40% - 20px);
+    }
+
+    #barra ul li a{
+
+        margin-top: 2rem;
+
+    }
+
+
+}
+
+/*------------------- Media query pc------------- */
+@media screen and (min-width:770px) {
+    .none3{
+        display: none;
+    }
+
+
+    p{
+        font-size: 30px;
+        font-family: "questrial", sans-serif;
+        
+    }
+
+
+
+    .txt-banner {
+        font-size: 50px;
+        color: #ffffff; /* Blanco para un buen contraste */
+        background-color: #007bff; /* Azul brillante */
+        width: fit-content;
+        margin-top: 3rem;
+    }
+    
+    #fondo-info-biblio-1 {
+        background-color: #4a90e2; /* Azul suave */
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        border-radius: 5px;
+        height: 25rem;
+    }
+    
+    #fondo-info-biblio-2 {
+        background-color: #007bff; /* Azul más intenso */
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        border-radius: 5px;
+        height: 25rem;
+    }
+    
+    #contenedor-biblio-1 {
+        max-width: max-content;
+    }
+    #contenedor-biblio-2 {
+        max-width: max-content;
+    }
+
+
+    #texto-biblio-info{
+        padding: 1rem;
+    }
+
+    
+    #texto-biblio-info p {
+        font-size: 20px;
+        color: #007bff; /* Azul brillante */
+    }
+    
+
+    /* ------------------   Java  --------------------- */
+
+    #notas_ {
+        font-size: 50px;
+        background-color: #007bff; /* Azul brillante */
+        color: #ffffff; /* Texto blanco */
+        width: fit-content;
+        margin: 2rem auto;
+        text-align: center;
+    }
+    
+    /* ------------------   CARRUSEL  --------------------- */
+
+    #titulo-info {
+        font-size: 50px;
+        background-color: #007bff; /* Azul brillante */
+        color: #ffffff; /* Texto blanco */
+        width: fit-content;
+        margin: 4rem auto;
+        text-align: center;
+    }
+    
+    .carousel-color {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+        box-shadow: 0px 0px 0px 30px #4a90e2; /* Azul suave */
+        border-radius: 15px; 
+        overflow: hidden;
+    }
+    
+
+
+.carousel-container {
+    max-width: 80rem; 
+    margin: auto;  
+    border: 20px;
+}
+
+.carousel-inner img {
+    height: auto; 
+    width: 100%;  
+}
+
+
+#titulo-2{
+    font-size: 50px;
+    background-color: #4a90e2; /* Azul suave */
+    width: 482px;
+    margin: 2rem auto;
+    max-width: fit-content;
+}
+
+
+
+#testimonio-1-div {
+    padding: 5%;
+    background-color: #4a90e2; /* Azul suave */
+    margin: 0 0 5% 0;
+    box-shadow: -12px 14px 0px 6px #88bde3; /* Sombra suave en un tono azul claro */
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#tipo_pedido_fav {
+    font-size: 40px;
+    background-color: #4a90e2; /* Azul suave */
+    width: 482px;
+    margin: 2rem auto;
+    max-width: fit-content;
+}
+
+#testimonio-2-div {
+    padding: 5%;
+    background-color: #4a90e2; /* Azul suave */
+    margin: 0 0 5% 0;
+    box-shadow: -12px 14px 0px 6px rgba(0, 119, 182, 0.5); /* Azul más suave y opaco */
+    border-radius: 15px; 
+    overflow: hidden;
+}
+
+#testimonio-3-div {
+    padding: 5%;
+    background-color: #0077b6; /* Azul más oscuro */
+    margin: 0 0 5% 0;
+    box-shadow: -12px 14px 0px 6px rgba(0, 119, 182, 0.7); /* Azul más fuerte con un toque suave */
+    border-radius: 15px; 
+    overflow: hidden;
+}
+
+.tocadiscos-p {
+    color: #1e72b8; /* Azul más oscuro para mejor contraste */
+    background-color: #f4faff; /* Fondo blanco suave con un toque de azul claro */
+}
+
+.discos-de-vinilo-p {
+    color: #4a8fda; /* Un tono azul suave */
+    background-color: #f4faff; /* Fondo blanco suave */
+}
+
+.bordes-vinilo-igor picture img {
+    box-shadow: 10px -12px 0px 6px rgba(48, 150, 179, 0.6); /* Azul suave y más sutil */
+    border-radius: 0.5rem;
+}
+
+
+
+    #titulo-preg{
+        font-size: 50px;
+        background-color: #00c3b1; /* Aqua brillante */
+        width: 500px;
+        margin: 2rem auto;
+        padding: 1rem; /* Añadido para algo de espacio interno */
+        border-radius: 10px; /* Bordes redondeados */
+        text-align: center; /* Centrado de texto */
+        color: #ffffff; /* Asegura que el texto sea blanco */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil para darle profundidad */
+    }
+
+    .color-texto-app {
+        color: #ffffff; /* Mantener el texto blanco */
+    }
+
+    .cont_form{
+
+        margin: 4rem 0;
+
+    }
+}
+
+.oculto {
+    display: none !important;
+}
+
+
+
+
+
