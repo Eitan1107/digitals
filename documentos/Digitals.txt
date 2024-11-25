@@ -1,0 +1,16 @@
+Esta página web fue diseñada para promover servicios tecnológicos enfocados en el desarrollo de software, soporte técnico y contacto profesional. La estructura incluye contenido interactivo, diseño visual atractivo y funcionalidades útiles que reflejan profesionalismo y accesibilidad.
+Contamos con un encabezado y secciones principales, como:
+   - Desarrollo de Software:
+     Expone las áreas de especialización como desarrollo web, aplicaciones móviles y software a medida.
+   - Acordeón informativo:
+     Una sección dinámica donde se responden preguntas frecuentes sobre los servicios, como soporte técnico, tecnologías utilizadas y desarrollo de aplicaciones personalizadas.
+
+También contamos con un formulario de contacto:
+   - Ofrece una interfaz clara para captar datos de clientes (nombre, correo, teléfono y mensaje).
+   - Incluye funcionalidad básica de formulario.
+
+Y tenemos un  pie de página:
+   - Presenta los datos del equipo creador del proyecto (nombre del curso, comisión, año y alumnos).
+   - Contiene enlaces a redes sociales y fotografías de los autores.
+
+Este proyecto combina estética profesional y funcionalidad práctica, destacando la organización y accesibilidad. Refleja un dominio básico-intermedio en desarrollo web y muestra cómo se pueden implementar soluciones dinámicas para clientes interesados en servicios tecnológicos. El diseño no solo informa, sino que también promueve la interacción y fidelización de usuarios.

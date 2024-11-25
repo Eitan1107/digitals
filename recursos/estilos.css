@@ -1,0 +1,1332 @@
+
+
+body{
+    background-color: #F5F5F5;
+}
+
+
+/*------------------- HEADER ------------- */
+
+header {
+    position: relative;
+    background-color: #1E88E5; 
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.5); 
+    padding: 1.5rem;
+    border-radius: 0 0 5px 5px;
+    color: #F5F5F5; 
+}
+
+
+#logo {
+    width: 170px;
+    height: 50px;
+    background: url("../multimedia/logo_promo_pc_Mesa\ de\ trabajo\ 1.png");
+    font-size: 0;
+    position: absolute;
+    margin: 0;
+    margin-top: 0.6rem;
+    z-index: 1;
+}
+
+section:first-of-type {
+    margin-top: 60px;
+}
+
+
+/* ------------------   NAV   --------------------- */
+
+
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../multimedia/boton-nav.png);
+}
+
+.bg-dark {
+    --bs-bg-opacity: 0;
+    
+  }
+
+.navbar-nav{
+    --bs-nav-link-color: #1E88E5; 
+    --bs-nav-link-hover-color: #0D47A1; 
+    --bs-nav-link-active-color: #F5F5F5;
+}
+
+.nav-link {
+    display: inline-block;
+  }
+
+
+/*--borde*/
+.navbar-toggler {
+    border: transparent;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+/*--borde*/
+
+  
+#barra ul li a {
+    font-family: "Questrial", sans-serif;
+    margin-left: 2rem;  
+    margin-bottom: -1rem;
+    color: #F5F5F5; 
+    font-size: 1.6rem;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem; 
+    text-decoration: none; 
+    background-color: #1E88E5; 
+    transition: all 0.3s ease-in-out; 
+}
+
+/* Efecto al pasar el cursor */
+#barra ul li a:hover {
+    background-color: #1565C0; 
+    color: #E3F2FD; 
+    transform: scale(1.05); 
+}
+
+
+
+/* Fuentes */
+
+
+.questrial-regular {
+    font-family: "questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+h2, h3 {
+    font-family: "Questrial", sans-serif; 
+    font-weight: bold; 
+    color: #0D47A1; 
+    margin-bottom: 1rem; 
+    line-height: 1.4; 
+    text-transform: uppercase; 
+    letter-spacing: 0.05rem; 
+}
+
+h2{
+    font-size: 32px;
+    font-family: "questrial", sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5rem; 
+    font-family: "Questrial", sans-serif; 
+    color: #1976D2; 
+    font-weight: 600; 
+    margin-bottom: 0.8rem; 
+    line-height: 1.3; 
+    letter-spacing: 0.03rem; 
+    text-transform: capitalize; 
+}
+
+
+
+
+/* ------------------   Imagen inicial banner  --------------------- */
+
+.img-banner picture img {
+    border-radius: 1.5rem; 
+    box-shadow: -8px 10px 12px rgba(0, 0, 0, 0.4); 
+    border: 2px solid #1976D2; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+/* ------------------   Texto Pantallas y Soluciones --------------------- */
+#texto-biblio-info-1{
+    padding: 1rem;
+}
+#texto-biblio-info-1 p {
+    font-size: 18px; 
+    color: #333333; 
+    line-height: 1.6; 
+    font-family: "Questrial", sans-serif; 
+}
+
+/* ------------------   Borde Pantallas y Soluciones --------------------- */
+.bordes-info-telefono picture img {
+    box-shadow: 10px 12px 20px 6px rgba(15, 82, 186, 0.5); 
+    border-radius: 0.8rem; 
+    transition: all 0.3s ease; 
+}
+
+
+/* ------------------   Pastillas --------------------- */
+#pastillas {
+    box-shadow: 10px 12px 15px 6px rgba(15, 82, 186, 0.2); 
+    border-radius: 0.8rem; 
+    background-color: #ffffff; 
+    color: #0d47a1; 
+    padding: 1rem; 
+    transition: all 0.3s ease; 
+    border: 1px solid #0d47a1; 
+}
+
+#pastillas:hover {
+    background-color: #e3f2fd; 
+    box-shadow: 10px 12px 20px 6px rgba(15, 82, 186, 0.4); 
+    border-color: #1976d2; /
+}
+
+
+
+
+/* ------------------   Texto Pantallas y Soluciones --------------------- */
+#texto-biblio-info-2{
+    padding: 1rem;
+}
+
+
+#texto-biblio-info-2 p {
+    font-size: 20px;
+    color: #0d47a1; 
+}
+
+
+/* ------------------   Borde imagen solucion --------------------- */
+.bordes-info-telefono-2 picture img {
+    box-shadow: 10px 12px 20px 6px rgba(15, 82, 186, 0.5); 
+    border-radius: 0.8rem; 
+    transition: all 0.3s ease; 
+}
+
+
+
+/* ------------------   Estilos cards bootsrap--------------------- */
+#color-java {
+    color: #0a3f9a; 
+}
+
+
+
+.titulo-cards {
+    font-size: 2rem;
+}
+
+
+
+#subtitulo-discos-fav {
+    color: #ffffff;
+    background-color: #0073e6; 
+}
+
+
+.list-group-item {
+    font-family: "Questrial", sans-serif;
+    color: #ffffff; 
+    background-color: #0066cc; 
+    border-radius: 0.5rem; 
+}
+
+
+.card {
+    background-color: #f4f9fc; 
+    --bs-card-border-color: #b3d1ff; 
+    border-radius: 0.8rem; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.card-group{
+    margin-top: 2rem;
+}
+
+
+/* ------------------   Estilos  - js  --------------------- */
+
+
+/*--Esto centra el contenedor y le agrega un maximo de 1300px*/
+#favoritos{
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*--Esta linea cambia el estilo del boton de accede */
+.btn-light {
+    color: #ffffff; 
+    font-weight: 500 !important; 
+    font-family: "Questrial", sans-serif; 
+    background-color: #007bff; 
+    border: 2px solid #0056b3; 
+    border-radius: 0.5rem; 
+    padding: 0.75rem 1.5rem; 
+    transition: all 0.3s ease; 
+}
+
+.btn-light:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+
+/*--Esta linea cambia el redondeo del boton que abre*/
+.rounded-5 {
+    border-radius: 0.5rem !important;
+  }
+
+
+/*--Esta linea cambia el color, radio y color de fondo del contenedor*/
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #007bff !important;
+    border-radius: 0.8rem; 
+    box-shadow: 15px 15px 20px 0.5rem rgba(0, 123, 255, 0.5); 
+}
+
+
+
+  /*--Estas lineas son para personalizar el boton de eliminar todo*/
+.btn-danger {
+    font-weight: 700; 
+    font-family: "questrial", sans-serif;
+    background-color: #007bff; 
+    color: #ffffff; 
+    border-radius: 0.5rem; 
+    transition: background-color 0.3s ease;
+    
+    --bs-btn-hover-bg: #0056b3; 
+    --bs-btn-border-color: transparent; 
+}
+
+.btn-danger a {
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: 600; 
+    transition: color 0.3s ease; 
+}
+
+
+  .rounded-circle {
+    border-radius: 0.4rem !important;
+  }
+
+
+  .btn-success {
+    font-weight: 700; 
+    font-family: "questrial", sans-serif; 
+    background-color: #4e94f3; 
+    color: #ffffff; 
+    border-radius: 0.5rem; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+    border: none; 
+}
+
+
+  /*--Estas lineas son para personalizar el boton filtros*/
+  
+.form-select {
+    font-family: "questrial", sans-serif; 
+    background-color: #00aaff; 
+    color: #ffffff; 
+    border: 1px solid #0077cc; 
+    border-radius: 0.5rem; 
+    padding: 0.5rem 1rem; 
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+.form-control {
+    font-family: "questrial", sans-serif; 
+    background-color: #4e94f3; 
+    color: #ffffff; 
+    border: 1px solid #357fd8; 
+    border-radius: 0.5rem; 
+    padding: 0.5rem 1rem; 
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+
+/*
+  Esta linea permite cambiarle el color al pop up una vez que colocamos nuestros datos
+
+  .form-control:not(:placeholder-shown) ~ label::after{
+    background-color: #f0359d !important;
+
+  }
+*/
+
+
+
+/*--Estas lineas personalizan la card que se abre cuando agregamos un pedido*/
+
+#color-ingresa {
+    color: #ffffff; 
+    font-weight: bold; 
+}
+
+
+.btn-primary {
+    font-family: "questrial", sans-serif;
+    background-color: #1a73e8; 
+    border-color: transparent; 
+
+    --bs-btn-hover-bg: #0d5bbd; 
+    --bs-btn-hover-border-color: transparent; 
+    color: white; 
+    border-radius: 0.5rem; 
+    font-weight: bold; 
+    padding: 0.8rem 1.5rem; 
+}
+
+
+.btn-info {
+    color: white; 
+    font-family: "questrial", sans-serif;
+
+    --bs-btn-bg: #007bff; 
+    --bs-btn-hover-bg: #0056b3; 
+    --bs-btn-hover-color: #fff; 
+    --bs-btn-border-color: transparent; 
+    --bs-btn-hover-border-color: transparent; 
+
+    border-radius: 0.5rem; 
+    font-weight: bold; 
+    padding: 0.8rem 1.5rem; 
+    transition: all 0.3s ease; 
+}
+
+
+
+.modal{
+    --bs-modal-border-color: transparent;
+}
+
+.modal-content {
+    background-color: #155b98; 
+    border-radius: 0.8rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 2rem; 
+}
+
+
+.fs-5 {
+    color: #1b2c8e; 
+}
+
+
+/* ------------------   Foto google trends. Este contenido solo se ve desde los 586px en adelante. No se ve para celular, solo tablet y pc.  --------------------- */
+.foto-trends img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+/* ------------------   Problema y solucion   --------------------- */
+
+
+
+/*--Titulo Pantallas Interactivas*/
+#h2-objetivo-1 {
+    max-width: fit-content;
+    background-color: #e0f7fa; 
+    font-size: 50px;
+    color: #0d47a1; 
+    padding: 10px; 
+    border-radius: 8px; 
+}
+
+
+/*--Titulo  Soluciones de redes y conectividad*/
+#h2-objetivo-2 {
+    max-width: fit-content;
+    background-color: #e0f7fa; 
+    font-size: 50px;
+    color: #0d47a1; 
+    padding: 10px; 
+    border-radius: 8px; 
+}
+
+
+
+
+
+
+
+
+
+/*--Span selector*/
+#disc-fav-span{
+    position: relative;
+    bottom: 14rem;
+}
+
+
+
+
+
+
+#nosotros {
+    padding: 10% 5%;
+    background-color: #e3f2fd; 
+    border-radius: 15px; 
+    margin: 0 0 5% 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+#nosotros:last-child figure{
+    margin: 1rem 0 1rem 0;
+}
+#nosotros:first-child{
+    padding-left:2rem;
+} 
+
+
+
+
+
+/* ------------------   Objetivo   --------------------- */
+
+
+#info_posicion{
+    display: flex; 
+    align-items: center;
+}
+
+
+
+
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    background: #80bfff; 
+}
+
+.carousel-indicators .active {
+    background: #007bff; 
+}
+
+
+/* ------------------   impre  --------------------- */
+#impresiones-a3-span{
+    position: relative;
+    bottom: 8.5rem;
+}
+
+
+/* ------------------   Color letras   --------------------- */
+.testimonios-color p {
+    color: #d1e0e8;
+}
+
+
+
+/* ------------------  Espacio entre imagen y boton enviar  --------------------- */
+#form{
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+    /* ------------------   ACORDEON  --------------------- */
+
+.accordion {
+    --bs-accordion-border-color: transparent;
+    --bs-accordion-btn-focus-border-color: transparent;
+    --bs-accordion-btn-focus-box-shadow: transparent;
+    --bs-accordion-active-bg: #0a4d9d; 
+    --bs-accordion-active-color: #ffffff; 
+    --bs-accordion-bg: #1f75fe; 
+    --bs-accordion-body-padding-x: 2rem;
+    --bs-accordion-btn-padding-x: 2rem;
+    --bs-accordion-btn-padding-y: 1.5rem;
+    --bs-accordion-border-width: 1px;
+    
+    border: 1px solid #d3e2f5; 
+}
+    
+
+.accordion-item{
+    margin: 1rem;
+    border: 0;
+}
+
+.accordion-button {
+    font-size: 24px;
+    background-color: #1e3a8a; 
+    color: #ffffff;
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.accordion-body p {
+    font-size: 24px;
+    font-family: "questrial", sans-serif;
+    color: #1e1e1e; 
+    border-top: 6px solid #4e7cfc; 
+    padding-top: 1.5rem;
+    background-color: #f1f5f9; 
+    border-radius: 8px;
+}
+
+.accordion-body{
+    padding-top: 0;
+}
+
+
+    /* ------------------------------------- Preguntas ------------------------------------- */
+
+    #preguntas-span{
+        position: relative;
+        bottom: 8.5rem;
+        
+    }
+
+    /* ------------------------------------- Formulario ------------------------------------- */
+
+
+    /* ------------------   Titulo  --------------------- */
+    .cont_form h2 {
+        margin-bottom: 1rem;
+        color: #1e3a8a;
+        font-family: "Questrial", sans-serif; 
+        font-size: 2rem; 
+    }
+    
+
+    /* ------------------   Orden cajas del formulario  --------------------- */
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    /* ------------------   Colores caja formulario  --------------------- */
+    input, textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 0.5rem; 
+        border: 1px solid #a1c4f7; 
+        background-color: #f0f7ff; 
+        color: #1e3a8a; 
+        font-size: 14px;
+        font-family: "Questrial", sans-serif; 
+        transition: all 0.3s ease; 
+    }
+    
+    /* ------------------   Boton enviar  --------------------- */
+    #buttom-form {
+        font-family: "Questrial", sans-serif;
+        font-size: 20px;
+        padding: 0.5rem 2rem;
+        max-width: 100%;
+        background-color: #1e3a8a; 
+        color: #ffffff; 
+        border-radius: 0.5rem; 
+        border: none;
+        
+        text-transform: uppercase;
+    
+        transition: all 0.3s ease; 
+    }
+
+
+    /* ------------------   Color hover boton enviar --------------------- */
+    #buttom-form:hover {
+        background-color: #3b82f6; 
+        color: #ffffff; 
+        box-shadow: 0 4px 8px rgba(59, 130, 246, 0.3); 
+    }
+    
+    /* ------------------  Orden cajas formulario  --------------------- */
+    #input_grupo {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #input_grupo input {
+        width: 48%; 
+    }
+
+    #column-form{
+        width: 100%;
+    }
+
+
+    .border-img-contacto picture img {
+        box-shadow: 10px 12px 0px 6px #3b82f6; 
+        border-radius: 0.5rem;
+    }
+    
+    .border-img-contacto picture img:hover {
+        box-shadow: 10px -12px 0px 6px #1e40af; 
+        border-radius: 0.5rem;
+    }
+    
+
+
+
+/* ---------------------- FOOTER ------------------ */
+
+footer{
+    background-color: #0D47A1;
+    color: #191919;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    }
+
+    footer ul li {
+        margin: 0 0.2rem;
+      }
+
+
+    #logo_footer{
+    width: 100px;
+    height: 29px;
+    font-size: 0;
+    margin-bottom: 0;
+    background-image: url(../multimedia/logo_promo_cel-02-02.png);
+    background-repeat: no-repeat;
+    
+    }
+
+    
+    
+    #x{
+        background: url("../multimedia/iconos_redes/x-logo-tb.png") center center no-repeat; 
+    }
+    #face{
+        background: url("../multimedia/iconos_redes/f-logo-tb.png") center center no-repeat;
+    }
+    #ig{
+        background: url("../multimedia/iconos_redes/i-logo-tb.png") center center no-repeat;
+    }
+
+    #x:hover {
+        background: url("../multimedia/iconos_redes/x-logo-hover-tb.png") center center no-repeat;
+    }
+    #face:hover {
+        background: url("../multimedia/iconos_redes/f-logo-hover-tb.png") center center no-repeat;
+    }
+    #ig:hover {
+        background: url("../multimedia/iconos_redes/i-logo-hover-tb.png") center center no-repeat;
+    }
+
+    .fotos-alumnos img{
+        margin: 0.5rem;
+        border-radius: 1rem;
+    }
+
+    #social_posicion p{
+        display: inline-block;
+    }
+
+
+    #social_posicion ul{
+        margin: 0;
+        padding: 0;
+    }
+    
+
+    #social_posicion ul li{
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+    }
+
+    #social_posicion ul li a {
+        display: flex;
+        justify-content: center;   
+        text-indent: -5000px;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    #social_posicion2 p{
+        display: inline-block;
+        
+    }
+
+    #social_posicion2 ul{
+        margin-top: 1rem;
+        padding: 0;
+    }
+    
+    #social_posicion2 ul li{
+        display: inline-block;
+        width: 126px;
+        height: 38px;
+    }
+
+    #social_posicion2 ul li a {
+        display: flex;
+        justify-content: center;   
+        text-indent: -5000px;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    #alumnos {
+        color: #d1d7e0; 
+        padding: 0;
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+        font-family: "questrial", sans-serif;
+        font-size: 14px;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+   
+#banner-inicio-sm img{
+    margin-top: 5rem;
+    max-width: 100%;
+}
+
+/* ------------------   Problema y solucion   --------------------- */
+@media screen and (max-width: 575px) {
+
+
+/*--Titulo Pantallas Interactivas*/
+#h2-objetivo-1 {
+    max-width: fit-content;
+    background-color: #e0f7fa; 
+    font-size: 30px;
+    color: #0d47a1; 
+    padding: 10px; 
+    border-radius: 8px; 
+}
+
+
+/*--Titulo  Soluciones de redes y conectividad*/
+#h2-objetivo-2 {
+    max-width: fit-content;
+    background-color: #e0f7fa; 
+    font-size: 30px;
+    color: #0d47a1; 
+    padding: 10px; 
+    border-radius: 8px; 
+}
+
+}
+
+
+
+
+
+/* --------- Media query solo con footer a partir de 575px y contenedor contacto  -------------- */
+@media screen and (min-width: 575px) {
+
+    /* ------------------   Contenedor contacto --------------------- */
+    .cont_form {
+        background-color: #E3F2FD; 
+        border-radius: 10px;
+        width: 100%;
+        margin: 2rem 0;
+        padding: 2rem 2rem;
+    }
+    
+
+}
+
+/* --------- FOOTER -------------- */
+@media screen and (min-width: 575px) {
+
+
+#logo_footer{
+    width: 170px;
+    height: 50px;
+    
+    background-image: url(../multimedia/logo-tb.png);
+    margin-bottom: 1rem;
+    }
+
+    
+    #x{
+        background: url("../multimedia/iconos_redes/x-logo.png") center center no-repeat;
+
+    }
+    #face{
+        background: url("../multimedia/iconos_redes/f-logo.png") center center no-repeat;
+    }
+    #ig{
+        background: url("../multimedia/iconos_redes/i-logo.png") center center no-repeat;
+    }
+
+    #x:hover {
+        background: url("../multimedia/iconos_redes/x-logo-hover.png") center center no-repeat;
+        
+    }
+    #face:hover {
+        background: url("../multimedia/iconos_redes/f-logo-hover.png") center center no-repeat;
+    }
+    #ig:hover {
+        background: url("../multimedia/iconos_redes/i-logo-hover.png") center center no-repeat;
+    }
+
+    #playstore_2{
+        background: url("../multimedia/alumno_1.png") center center no-repeat;
+    }
+
+    #apple_2{
+        width: 100%;
+        height: 100%;
+        background: url("../multimedia/alumna_2.png") center center no-repeat;
+        
+    }
+
+    footer ul li{
+        margin: 0 0.4rem;
+    }
+
+
+    #social_posicion p{
+        margin-top: 1.5rem;
+    }
+
+
+
+
+    #social_posicion ul li{
+        
+        width: 42px;
+        height: 42px;
+    }
+
+    #social_posicion ul li a {
+        margin-top: 1.5rem;
+    }
+
+   
+
+    #social_posicion2 ul{
+        margin-top: 2rem;
+        padding: 0;
+    }
+    
+
+    #social_posicion2 ul li{
+        width: 219px;
+        height: 66px;
+    }
+
+
+    #alumnos{
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        text-align: left;
+    }
+   
+
+#banner-inicio-sm img{
+    max-width: 100%;
+}
+
+
+
+
+}
+
+/* --------- Media query solo telefono  -------------- */
+@media screen and (max-width:585px) {
+    
+    /* ------------------   Utilizado para quitar cosas --------------------- */
+    .none{
+        display: flex;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .txt-banner {
+        font-size: 30px;
+        color: #ffffff; 
+        background-color: #1976D2; 
+        width: fit-content;
+        padding: 0.5rem 1rem; 
+        border-radius: 5px; 
+    }
+       
+    #texto-biblio-info{
+        padding: 1rem;
+    }
+    
+    
+    #texto-biblio-info p {
+        font-size: 20px;
+        color: #2c3e50; 
+        background-color: #f0f8ff; 
+    }
+    
+        /* ------------------   Contenedor contacto --------------------- */
+        .cont_form {
+            background-color: #b0e0e6; 
+            border-radius: 10px;
+            width: 100%;
+            margin: 4rem 0;
+            padding: 2rem 2rem;
+        }   
+
+        
+    .border-img-contacto picture img {
+        box-shadow: 10px 12px 0px 6px #3b82f6; 
+        border-radius: 0.5rem;
+        width: 15em;
+        display: flex;
+    }
+    
+    .border-img-contacto picture img:hover {
+        box-shadow: 10px -12px 0px 6px #1e40af; 
+        border-radius: 0.5rem;
+    }
+    
+
+}
+
+/* --------- Media query solo tablet  -------------- */
+@media screen and (max-width:770px) {
+
+
+    .none2{
+        display: flex;
+    }
+
+
+    .txt-banner {
+        color: #ffffff; 
+        background-color: #5f9ea0; 
+        width: fit-content;
+        padding: 10px 20px; 
+        border-radius: 8px; 
+    }
+    
+
+
+
+    .txt-banner{
+        margin-top: 3rem;
+        
+    }
+
+    
+
+    #fondo-info-biblio-1 {
+        background-color: #a1c4e8; 
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        border-radius: 5px;
+        height: max-content;
+    }
+    
+    #fondo-info-biblio-2 {
+        background-color: #cce7f3; 
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        border-radius: 5px;
+        height: max-content;
+    }
+    
+    
+    
+    #contenedor-biblio-1 {
+        max-width: max-content;
+    }
+    #contenedor-biblio-2 {
+        max-width: max-content;
+    }
+
+
+
+    #titulo-info {
+        font-size: 40px;
+        background-color: #4a90e2; 
+        width: fit-content;
+        margin: 4rem auto;
+        text-align: center;
+        color: white; 
+    }
+    
+    #titulo-2 {
+        font-size: 40px;
+        background-color: #6fa3f7; 
+        width: 482px;
+        margin: 2rem auto;
+        max-width: fit-content;
+        color: white; 
+    }
+    
+    #testimonio-1-div {
+        padding: 5%;
+        background-color: #4a90e2; 
+        margin: 5% 0 2rem 0;
+        box-shadow: -12px -14px 0px 6px #aad4f5; 
+        border-radius: 15px; 
+        overflow: hidden;
+    }
+    
+    #testimonio-2-div {
+        padding: 5%;
+        background-color: #66b9f1; 
+        margin: 0 0 2rem 0;
+        box-shadow: 12px 14px 0px 6px #aad4f5; 
+        border-radius: 15px; 
+        overflow: hidden;
+    }
+    
+    #testimonio-3-div {
+        padding: 5%;
+        background-color: #83c0f4; 
+        margin: 1rem 0 5rem 0;
+        box-shadow: -12px 14px 0px 6px #aad4f5; 
+        border-radius: 15px; 
+        overflow: hidden;
+    }
+    
+    .tocadiscos-p {
+        color: #4d8df4; 
+        background-color: #ffffff; 
+    }
+    
+    .color-texto-app {
+        color: #ffffff; 
+    }
+    
+    #titulo-preg {
+        background-color: #1e88e5; 
+        width: fit-content;
+        margin: 2rem auto;
+        color: white; 
+    }
+    
+}
+
+
+/*------------------- Media query SOLO para acomodar el logo en la nav y aumentar el espacio de los botones de la nav ------------- */
+@media screen and (max-width: 991px){
+    #logo {
+        left: calc(40% - 20px);
+    }
+
+    #barra ul li a{
+
+        margin-top: 2rem;
+
+    }
+
+
+}
+
+/*------------------- Media query pc------------- */
+@media screen and (min-width:770px) {
+    .none3{
+        display: flex;
+    }
+
+
+    p{
+        font-size: 30px;
+        font-family: "questrial", sans-serif;
+        
+    }
+
+
+
+    .txt-banner {
+        font-size: 50px;
+        color: #ffffff; 
+        background-color: #007bff; 
+        width: fit-content;
+        margin-top: 3rem;
+    }
+    
+    #fondo-info-biblio-1 {
+        background-color: #4a90e2; 
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        border-radius: 5px;
+        height: 25rem;
+    }
+    
+    #fondo-info-biblio-2 {
+        background-color: #007bff; 
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        border-radius: 5px;
+        height: 25rem;
+    }
+    
+    #contenedor-biblio-1 {
+        max-width: max-content;
+    }
+    #contenedor-biblio-2 {
+        max-width: max-content;
+    }
+
+
+    #texto-biblio-info{
+        padding: 1rem;
+    }
+
+    
+    #texto-biblio-info p {
+        font-size: 20px;
+        color: #007bff; 
+    }
+    /* ------------------   Java  --------------------- */
+
+    #notas_ {
+        font-size: 50px;
+        background-color: #007bff; 
+        color: #ffffff; 
+        width: fit-content;
+        margin: 2rem auto;
+        text-align: center;
+    }
+    
+    /* ------------------   CARRUSEL  --------------------- */
+
+    #titulo-info {
+        font-size: 50px;
+        background-color: #007bff; 
+        color: #ffffff;
+        width: fit-content;
+        margin: 4rem auto;
+        text-align: center;
+    }
+    
+    .carousel-color {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+        box-shadow: 0px 0px 0px 30px #4a90e2; 
+        border-radius: 15px; 
+        overflow: hidden;
+    }
+    
+
+
+.carousel-container {
+    max-width: 80rem; 
+    margin: auto;  
+    border: 20px;
+}
+
+.carousel-inner img {
+    height: auto; 
+    width: 100%;  
+}
+
+
+#titulo-2{
+    font-size: 50px;
+    background-color: #4a90e2; 
+    width: 482px;
+    margin: 2rem auto;
+    max-width: fit-content;
+}
+
+
+
+#testimonio-1-div {
+    padding: 5%;
+    background-color: #4a90e2; 
+    margin: 0 0 5% 0;
+    box-shadow: -12px 14px 0px 6px #88bde3; 
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#tipo_pedido_fav {
+    font-size: 40px;
+    background-color: #4a90e2; 
+    width: 482px;
+    margin: 2rem auto;
+    max-width: fit-content;
+}
+
+#testimonio-2-div {
+    padding: 5%;
+    background-color: #4a90e2; 
+    margin: 0 0 5% 0;
+    box-shadow: -12px 14px 0px 6px rgba(0, 119, 182, 0.5); 
+    border-radius: 15px; 
+    overflow: hidden;
+}
+
+#testimonio-3-div {
+    padding: 5%;
+    background-color: #0077b6; 
+    margin: 0 0 5% 0;
+    box-shadow: -12px 14px 0px 6px rgba(0, 119, 182, 0.7); 
+    border-radius: 15px; 
+    overflow: hidden;
+}
+
+.tocadiscos-p {
+    color: #1e72b8; 
+    background-color: #f4faff; 
+}
+
+.discos-de-vinilo-p {
+    color: #4a8fda; 
+    background-color: #f4faff;
+}
+
+.bordes-vinilo-igor picture img {
+    box-shadow: 10px -12px 0px 6px rgba(48, 150, 179, 0.6);
+    border-radius: 0.5rem;
+}
+
+
+
+    #titulo-preg{
+        font-size: 50px;
+        background-color: #00c3b1; 
+        width: 500px;
+        margin: 2rem auto;
+        padding: 1rem; 
+        border-radius: 10px; 
+        text-align: center; 
+        color: #ffffff; 
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    }
+
+    .color-texto-app {
+        color: #ffffff; 
+    }
+
+    .cont_form{
+
+        margin: 4rem 0;
+
+    }
+}
+
+.oculto {
+    display: none !important;
+}
+
+
+
+
+
